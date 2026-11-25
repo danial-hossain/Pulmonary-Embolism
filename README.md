@@ -4,6 +4,8 @@ This repository holds the analysis code for the paper *Temporal Explainable AI f
 
 The pipeline builds a leakage-safe inpatient cohort from the INSPECT dataset and represents 14 vital signs and laboratory tests in 6-hour bins. A prefix-trained GRU updates pulmonary embolism (PE) risk every 6 hours. Temporal SHAP (expected gradients) explains both the current risk and its change between prediction points.
 
+**Status:** the paper is in preparation; the analysis notebook will be added to `notebooks/`.
+
 **No data is included.** INSPECT is available from the Stanford Center for Artificial Intelligence in Medicine and Imaging (AIMI) under a data use agreement, and it cannot be redistributed. This repository contains code only.
 
 ## What the notebook does
