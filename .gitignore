@@ -1,0 +1,21 @@
+# Never commit INSPECT data or anything derived from it at patient level
+*.csv
+*.parquet
+*.npz
+*.npy
+*.pt
+*.pkl
+*.duckdb
+INSPECT_outputs/
+data/
+
+# Python / notebooks
+__pycache__/
+.ipynb_checkpoints/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.blg
+*.synctex.gz
